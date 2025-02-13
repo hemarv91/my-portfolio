@@ -1,38 +1,61 @@
-.App {
+/* General Styles */
+body {
+  font-family: Arial, sans-serif, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5; /* Light grey for consistency */
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: #291f48; /* Dark navbar */
+  padding: 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link {
   color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link:hover {
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Centered Card */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Titles */
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #555;
+  text-align: center;
+}
+
+/* Contact Section */
+.contact-container {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
 }
