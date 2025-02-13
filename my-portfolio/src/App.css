@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif, 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
   background-color: #f0f2f5; /* Light grey for consistency */
@@ -9,7 +9,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background: #222; /* Dark navbar */
+  background: #291f48; /* Dark navbar */
   padding: 15px;
   text-align: center;
 }
